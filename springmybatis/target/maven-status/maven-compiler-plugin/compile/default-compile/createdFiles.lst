@@ -1,0 +1,4 @@
+com\mapper\UserMapper.class
+com\pojo\UserInfo.class
+test\Test.class
+com\service\UserService.class

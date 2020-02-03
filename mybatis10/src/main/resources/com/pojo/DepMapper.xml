@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.DepMapper">
+
+    <cache></cache>
+
+    <select id="fenye" resultType="com.pojo.Dep" parameterType="map">
+        select depid  did , depname  dname from dep limit #{0} , #{1}
+    </select>
+
+    <select id="findbyid" resultType="com.pojo.Dep" parameterType="int" useCache="true">
+        select depid  did , depname  dname from dep where depid = #{depid}
+    </select>
+
+
+</mapper>
+
+

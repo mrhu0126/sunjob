@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="like:war">
+    <output-path>$PROJECT_DIR$/like/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>like</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="like.war">
+      <element id="artifact" artifact-name="like:war exploded" />
+    </root>
+  </artifact>
+</component>

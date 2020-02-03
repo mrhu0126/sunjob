@@ -1,0 +1,18 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.UserMapper">
+    <select id="findall" resultType="com.pojo.UserInfo" >
+        select username , password from userinfo
+    </select>
+
+    <insert id="add" parameterType="com.pojo.UserInfo">
+        insert into userinfo(username , password ) values(#{username} , #{password})
+    </insert>
+
+    <delete id="deletebyid" parameterType="string">
+        delete from userinf where username = #{username}
+    </delete>
+
+</mapper>

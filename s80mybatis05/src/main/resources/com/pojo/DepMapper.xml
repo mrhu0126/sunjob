@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.DepMapper">
+
+        <select id="findall" resultType="dep">
+            select  depid ,depname from dep
+        </select>
+
+        <select id="findbyqj" resultType="dep">
+                select depid , depname from dep where depid &gt; #{x} and depid &lt; #{y}
+        </select>
+
+        <select id="findbyqj2" resultType="dep" parameterType="map">
+                select depid , depname from dep where depid &gt; #{x} and depid &lt; #{y}
+        </select>
+
+        <select id="fenye" resultType="dep" parameterType="map">
+                 select depid , depname from dep limit #{begin} , #{offset}
+        </select>
+
+
+</mapper>
+
+
+

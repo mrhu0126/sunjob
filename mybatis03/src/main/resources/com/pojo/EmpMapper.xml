@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id column="empid" property="empid"></id>
+        <result column="empname" property="empname"></result>
+    </resultMap>
+
+    <select id="findbydep" resultMap="emp" parameterType="int">
+        select empid , empname , did from emp where did = #{did}
+    </select>
+
+</mapper>
+

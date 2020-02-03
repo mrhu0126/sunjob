@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="s80mybatis03" />
+        <module name="s80mybatis02" />
+        <module name="s80mybatis01" />
+        <module name="mybatis09" />
+        <module name="mybatis08" />
+        <module name="mybatis07" />
+        <module name="mybatis06" />
+        <module name="mybatis05" />
+        <module name="mybatis04" />
+        <module name="mybatis03" />
+        <module name="mybatis02" />
+        <module name="mybatis01" />
+        <module name="login" />
+        <module name="goods" />
+        <module name="mybatisplus" />
+        <module name="boot80" />
+        <module name="like" />
+        <module name="springmybatis" />
+        <module name="s80boot2" />
+        <module name="s3jsp26" />
+        <module name="springMVC" />
+        <module name="bootjsp" />
+        <module name="springboot" />
+        <module name="springandmybatis" />
+        <module name="spring01" />
+        <module name="s80springmybatis" />
+        <module name="ajax" />
+        <module name="batch" />
+        <module name="jsp" />
+        <module name="s80boot" />
+        <module name="springjsp" />
+        <module name="sb" />
+        <module name="s80springMVC" />
+        <module name="fenye" />
+        <module name="s3jsp25" />
+        <module name="s3-jsp-denglu" />
+        <module name="s3jsp23" />
+        <module name="s3jsp22" />
+        <module name="s3jsp20" />
+        <module name="boot" />
+        <module name="s80spring07" />
+        <module name="s80spring06" />
+        <module name="s80spring04" />
+        <module name="s80spring03" />
+        <module name="s80spring02" />
+        <module name="s80spring01" />
+        <module name="zhuce" />
+        <module name="jsps" />
+        <module name="sbj" />
+        <module name="s3jsp19" />
+        <module name="s80mybatis3" />
+        <module name="s80bootmp" />
+        <module name="maven" />
+        <module name="selectkey" />
+        <module name="s3" />
+        <module name="bootsandjsp" />
+        <module name="layui" />
+        <module name="mybatis10" />
+        <module name="s3jsp24" />
+        <module name="mybatisandboot" />
+        <module name="s80mybatis09" />
+        <module name="s80mybatis08" />
+        <module name="s80mybatis07" />
+        <module name="s80mybatis06" />
+        <module name="s80mybatis05" />
+        <module name="s80mybatis04" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aa" target="1.7" />
+      <module name="ajax" target="1.7" />
+      <module name="batch" target="1.7" />
+      <module name="boot" target="1.8" />
+      <module name="boot2" target="1.8" />
+      <module name="boot80" target="1.8" />
+      <module name="bootjsp" target="1.8" />
+      <module name="bootsandjsp" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demoes" target="1.8" />
+      <module name="demos" target="1.8" />
+      <module name="fenye" target="1.7" />
+      <module name="goods" target="1.7" />
+      <module name="jsp" target="1.8" />
+      <module name="jsps" target="1.8" />
+      <module name="layui" target="1.8" />
+      <module name="like" target="1.7" />
+      <module name="login" target="1.7" />
+      <module name="maven" target="1.7" />
+      <module name="mybatis01" target="1.7" />
+      <module name="mybatis02" target="1.5" />
+      <module name="mybatis03" target="1.5" />
+      <module name="mybatis04" target="1.5" />
+      <module name="mybatis05" target="1.5" />
+      <module name="mybatis06" target="1.7" />
+      <module name="mybatis07" target="1.5" />
+      <module name="mybatis08" target="1.7" />
+      <module name="mybatis09" target="1.5" />
+      <module name="mybatis10" target="1.7" />
+      <module name="mybatisandboot" target="1.8" />
+      <module name="mybatisplus" target="1.7" />
+      <module name="s3" target="1.7" />
+      <module name="s3-jsp-18" target="1.7" />
+      <module name="s3-jsp-denglu" target="1.7" />
+      <module name="s318" target="1.5" />
+      <module name="s3jsp18" target="1.7" />
+      <module name="s3jsp19" target="1.7" />
+      <module name="s3jsp20" target="1.7" />
+      <module name="s3jsp21" target="1.7" />
+      <module name="s3jsp22" target="1.7" />
+      <module name="s3jsp23" target="1.7" />
+      <module name="s3jsp24" target="1.7" />
+      <module name="s3jsp25" target="1.7" />
+      <module name="s3jsp26" target="1.7" />
+      <module name="s80boot" target="1.8" />
+      <module name="s80boot2" target="1.8" />
+      <module name="s80bootmp" target="1.8" />
+      <module name="s80maven10" target="1.5" />
+      <module name="s80mybatis01" target="1.7" />
+      <module name="s80mybatis02" target="1.7" />
+      <module name="s80mybatis03" target="1.7" />
+      <module name="s80mybatis04" target="1.7" />
+      <module name="s80mybatis05" target="1.5" />
+      <module name="s80mybatis06" target="1.7" />
+      <module name="s80mybatis07" target="1.5" />
+      <module name="s80mybatis08" target="1.7" />
+      <module name="s80mybatis09" target="1.7" />
+      <module name="s80mybatis3" target="1.7" />
+      <module name="s80spring01" target="1.5" />
+      <module name="s80spring02" target="1.5" />
+      <module name="s80spring03" target="1.5" />
+      <module name="s80spring04" target="1.5" />
+      <module name="s80spring06" target="1.7" />
+      <module name="s80spring07" target="1.7" />
+      <module name="s80springMVC" target="1.7" />
+      <module name="s80springmybatis" target="1.5" />
+      <module name="sb" target="1.8" />
+      <module name="sbj" target="1.8" />
+      <module name="selectkey" target="1.7" />
+      <module name="spring01" target="1.5" />
+      <module name="springandmybatis" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springjsp" target="1.8" />
+      <module name="springMVC" target="1.7" />
+      <module name="springmybatis" target="1.7" />
+      <module name="zhuce" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot" options="-parameters" />
+      <module name="boot2" options="-parameters" />
+      <module name="boot80" options="-parameters" />
+      <module name="bootjsp" options="-parameters" />
+      <module name="bootsandjsp" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demoes" options="-parameters" />
+      <module name="demos" options="-parameters" />
+      <module name="jsp" options="-parameters" />
+      <module name="jsps" options="-parameters" />
+      <module name="layui" options="-parameters" />
+      <module name="mybatisandboot" options="-parameters" />
+      <module name="s80boot" options="-parameters" />
+      <module name="s80boot2" options="-parameters" />
+      <module name="s80bootmp" options="-parameters" />
+      <module name="sb" options="-parameters" />
+      <module name="sbj" options="-parameters" />
+      <module name="springandmybatis" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springjsp" options="-parameters" />
+    </option>
+  </component>
+</project>

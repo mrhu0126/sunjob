@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fenye:war">
+    <output-path>$PROJECT_DIR$/fenye/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>fenye</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fenye.war">
+      <element id="artifact" artifact-name="fenye:war exploded" />
+    </root>
+  </artifact>
+</component>

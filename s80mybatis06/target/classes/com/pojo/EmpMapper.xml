@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.EmpMapper">
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id column="empid" property="empid"></id>
+        <result column="empname" property="empname"></result>
+        <association property="dep" column="did" >
+        <id column="depid" property="depid"></id>
+        <result column="depname" property="depname"></result>
+    </association>
+    </resultMap>
+
+    <select id="findempanddep" resultMap="emp">
+        select empid , empname , did , depid , depname from emp e , dep d where e.did = d.depid
+    </select>
+
+    <select id="findempanddep2" resultType="map">
+        select empid , empname , did , depid , depname from emp e , dep d where e.did = d.depid
+    </select>
+
+    <select id="multiquery" parameterType="map" resultType="com.pojo.Emp">
+        select empid , empname from emp
+        <where>
+            <if test="empid!=null and empid !=0 ">
+                empid = #{empid}
+            </if>
+            
+            <if test="empname !=null and empname !=''">
+               or empname like concat('%' , concat(#{empname} , '%'))
+            </if>
+            
+        </where>
+
+    </select>
+
+    <select id="in" resultType="com.pojo.Emp" parameterType="list">
+        select empid , empname from emp where empid in
+        <choose>
+            <when test="list==null or list.size()==0">
+                (-1)
+            </when>
+            <otherwise>
+                <foreach collection="list" open="(" close=")" item="empid" separator=",">
+                  #{empid}
+                </foreach>
+            </otherwise>
+
+        </choose>
+        
+
+    </select>
+
+    <update id="update" parameterType="com.pojo.Emp" >
+        update emp
+        <set>
+            <if test="empname!=null and empname!=''">
+                empname = #{empname}
+            </if>
+
+            <if test="did!=null and did !=0">
+                did=#{did}
+            </if>
+        </set>
+
+        where empid = #{empid}
+    </update>
+
+</mapper>
+
+
+

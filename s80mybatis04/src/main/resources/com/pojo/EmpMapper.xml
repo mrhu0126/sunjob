@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <sql id="fields">
+        empid , empname , gender , did
+    </sql>
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id column="empid" property="empid"></id>
+        <result column="empname" property="empname"></result>
+        <result column="did" property="did"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="gender" property="gender"></result>
+    </resultMap>
+
+    <update id="updateemp" parameterType="com.pojo.Emp">
+        update emp
+        <!--  prefix 前缀   suffix 后缀 -->
+        <trim prefix="set" suffixOverrides=",">
+        <if test="did!=0 and did!=null">
+            did = #{did},
+        </if>
+        <if test="empname!=null and empname!=''">
+         empname = #{empname},
+        </if>
+        <if test="gender!=-1 and gender=null" >
+        gender=#{gender},
+        </if>
+        <if test="birthday!=null and birthday !=''">
+        birthday = #{birthday},
+        </if>
+        </trim>
+        where empid = #{empid}
+    </update>
+
+    <select id="findbyid" resultMap="emp">
+        select <include refid="fields"></include> from emp where empid = #{empid}
+    </select>
+
+    <!-- 动态sql -->
+    <!--模糊查询-->
+    <select id="query" resultMap="emp" parameterType="com.pojo.Emp">
+        select <include refid="fields"></include> from emp
+        <where >
+            <if test="empid!=null and empid!=0 ">
+               and empid = #{empid}
+            </if>
+
+            <if test="empname!=null and empname!='' ">
+               and empname like #{empname}
+            </if>
+
+            <if test="gender!=null and gender!='' ">
+               or gender = #{gender}
+            </if>
+        </where>
+    </select>
+
+    <select id="findin" resultMap="emp" parameterType="list">
+        select <include refid="fields"></include> from emp where empid in
+        <foreach collection="list" open="(" close=")" separator="," item="s" >
+            #{s}
+        </foreach>
+    </select>
+
+
+</mapper>
+
+
+

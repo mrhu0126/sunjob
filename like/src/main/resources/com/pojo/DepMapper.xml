@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Dep">
+
+   <resultMap id="dep" type="com.pojo.Dep">
+       <id column="depid" property="depid"></id>
+       <result column="depname" property="depname"></result>
+   </resultMap>
+
+    <select id="like" resultMap="dep">
+        select depid ,depname from dep where depname like concat('%' , concat(#{depname}) , '%')
+    </select>
+
+    <select id="qj" resultMap="dep">
+        select depid , depname from dep where depid <![CDATA[<]]> #{depid}
+    </select>
+
+
+    <select id="qj2" resultMap="dep" parameterType="map">
+        select depid , depname from dep where depid between #{x} and #{y}
+    </select>
+
+
+</mapper>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <cache></cache>
+
+   <resultMap id="emp" type="e">
+       <id column="empid" property="empid"></id>
+       <result column="empname" property="empname"></result>
+       <association property="dep" column="did" >
+           <id property="depid" column="depid"></id>
+            <result column="depname" property="depname"></result>
+       </association>
+   </resultMap>
+
+    <select id="findbyid" resultMap="emp" parameterType="int">
+        select empid , empname , did  from emp where empid = #{empid}
+    </select>
+
+    <!--动态sql-->
+    <select id="find" parameterType="map" resultMap="emp">
+        select empid , empname , did from emp
+        <where>
+            <if test="empid !=0 and empid != null ">
+                empid = #{empid}
+            </if>
+
+            <if test="empname !=null">
+               or empname like #{empname}
+            </if>
+
+        </where>
+
+    </select>
+
+
+
+
+
+</mapper>
+

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="selectkey:war">
+    <output-path>$PROJECT_DIR$/selectkey/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>selectkey</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="selectkey.war">
+      <element id="artifact" artifact-name="selectkey:war exploded" />
+    </root>
+  </artifact>
+</component>

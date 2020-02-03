@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.EmpMapper">
+
+        <select id="zpy" resultType="com.pojo.Emp">
+                select empid , empname , birthday from emp where birthday &gt; concat(#{min}, ' 00:00:00') and birthday &lt; concat(#{max} , ' 23:59:59')
+        </select>
+
+        <select id="like" resultType="com.pojo.Emp">
+                select empid , empname , birthday from emp where empname like #{empname}
+        </select>
+
+        <select id="like2" resultType="com.pojo.Emp">
+                select empid , empname , birthday from emp where empname like concat('%' , concat(#{empname} , '%'))
+        </select>
+
+        <select id="count" resultType="int">
+                select count(*) from emp
+        </select>
+
+        <!--男女统计-->
+        <select id="tj" resultType="map">
+                select gender , count(*) as c from emp group by gender
+        </select>
+
+
+</mapper>
+
+
+

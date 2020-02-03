@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id column="empid" property="empid"></id>
+        <result column="empname" property="empname"></result>
+        <!--
+        <association property="dep" column="did" select="com.pojo.Dep.findbyid2" ></association>
+        -->
+        <association property="dep" column="did" resultMap="com.pojo.Dep.dep">
+            <id column="depid" property="depid"></id>
+            <result column="depname" property="depname"></result>
+        </association>
+    </resultMap>
+
+    <!-- 查找部门时 查找员工  -->
+    <select id="findbydid" resultMap="emp">
+        select empid , empname ,did from emp where did = #{did}
+    </select>
+
+    <!-- 根据员工编号找员工 -->
+    <select id="findbyid" resultMap="emp">
+        select empid , empname , did , depid , depname from emp e , dep d where empid = #{empid} and d.depid = e.did
+    </select>
+
+
+</mapper>
+
+
+

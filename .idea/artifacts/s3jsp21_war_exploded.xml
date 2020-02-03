@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="s3jsp21:war exploded">
+    <output-path>$PROJECT_DIR$/s3jsp21/target/s3jsp21</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>s3jsp21</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="s3jsp21" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/mvc/s3jsp21/target/s3jsp21/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="s3jsp21/web/Web" />
+    </root>
+  </artifact>
+</component>

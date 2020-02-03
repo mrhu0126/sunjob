@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.DepMapper">
+
+    <select id="findall" resultType="com.pojo.Dep" >
+        select depid ,depname from dep
+    </select>
+
+    <select id="findbyid" resultType="com.pojo.Dep">
+        select depid , depname from dep where depid = #{depid}
+    </select>
+    
+    <insert id="adddep" parameterType="com.pojo.Dep" >
+        insert into dep(depid, depname) values(#{depid} , #{depname})
+    </insert>
+
+    <delete id="deletebyid" parameterType="int">
+        delete from dep where depid = #{depid}
+    </delete>
+
+    <update id="updatedep" parameterType="com.pojo.Dep">
+        update dep set depname = #{depname} where depid = #{depid}
+    </update>
+
+    <select id="fenye" resultType="com.pojo.Dep" parameterType="map">
+         select depid ,depname from dep limit #{offset} , #{limit}
+    </select>
+
+</mapper>
+
+
+

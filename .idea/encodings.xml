@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ajax" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootjsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootsandjsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fenye" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jsps" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/layui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/like" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mvc/s3jsp21" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis08" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis10" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisandboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3-jsp-denglu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp19" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp20" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp22" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp23" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp24" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp25" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s3jsp26" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80boot2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80bootmp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis04" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis08" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis09" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80mybatis3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80spring06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80spring07" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s80springMVC" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/selectkey" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springandmybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springjsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhuce" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

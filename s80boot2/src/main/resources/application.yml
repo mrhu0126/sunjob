@@ -1,0 +1,39 @@
+server:
+  port: 80
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://127.0.0.1:3306/s82
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: false
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: false
+  mapper-locations: com/example/s80boot2/mapper/*Mapper.xml
+  type-aliases-package: com.example.s80boot2.pojo
+  mybatis-plus.configuration.map-underscore-to-camel-case: false
+
+#mybatis
+
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper: debug
+

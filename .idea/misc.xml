@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/aa" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/batch" />
+    <file type="web" url="file://$PROJECT_DIR$/fenye" />
+    <file type="web" url="file://$PROJECT_DIR$/goods" />
+    <file type="web" url="file://$PROJECT_DIR$/like" />
+    <file type="web" url="file://$PROJECT_DIR$/login" />
+    <file type="web" url="file://$PROJECT_DIR$/maven" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc/s3jsp21" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis01" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis02" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis06" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis08" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis10" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatisplus" />
+    <file type="web" url="file://$PROJECT_DIR$/s3" />
+    <file type="web" url="file://$PROJECT_DIR$/s3-jsp-18" />
+    <file type="web" url="file://$PROJECT_DIR$/s3-jsp-denglu" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp18" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp19" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp20" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp22" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp23" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp24" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp25" />
+    <file type="web" url="file://$PROJECT_DIR$/s3jsp26" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis01" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis02" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis03" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis04" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis06" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis08" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis09" />
+    <file type="web" url="file://$PROJECT_DIR$/s80mybatis3" />
+    <file type="web" url="file://$PROJECT_DIR$/s80spring06" />
+    <file type="web" url="file://$PROJECT_DIR$/s80spring07" />
+    <file type="web" url="file://$PROJECT_DIR$/s80springMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/selectkey" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/springmybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/zhuce" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven/pom.xml" />
+        <option value="$PROJECT_DIR$/s3/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp19/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp20/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp21/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp22/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp23/pom.xml" />
+        <option value="$PROJECT_DIR$/boot/pom.xml" />
+        <option value="$PROJECT_DIR$/springmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis03/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis04/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis05/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/springandmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springjsp/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp24/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis06/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp25/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisandboot/pom.xml" />
+        <option value="$PROJECT_DIR$/bootsandjsp/pom.xml" />
+        <option value="$PROJECT_DIR$/sb/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis03/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis3/pom.xml" />
+        <option value="$PROJECT_DIR$/selectkey/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis04/pom.xml" />
+        <option value="$PROJECT_DIR$/batch/pom.xml" />
+        <option value="$PROJECT_DIR$/like/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis07/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis05/pom.xml" />
+        <option value="$PROJECT_DIR$/jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/sbj/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis06/pom.xml" />
+        <option value="$PROJECT_DIR$/s3jsp26/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis09/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis07/pom.xml" />
+        <option value="$PROJECT_DIR$/zhuce/pom.xml" />
+        <option value="$PROJECT_DIR$/s3-jsp-denglu/pom.xml" />
+        <option value="$PROJECT_DIR$/goods/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis08/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis10/pom.xml" />
+        <option value="$PROJECT_DIR$/spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/login/pom.xml" />
+        <option value="$PROJECT_DIR$/fenye/pom.xml" />
+        <option value="$PROJECT_DIR$/bootjsp/pom.xml" />
+        <option value="$PROJECT_DIR$/jsps/pom.xml" />
+        <option value="$PROJECT_DIR$/layui/pom.xml" />
+        <option value="$PROJECT_DIR$/s80mybatis09/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring02/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring03/pom.xml" />
+        <option value="$PROJECT_DIR$/s80springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring04/pom.xml" />
+        <option value="$PROJECT_DIR$/s80springmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring06/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/s80spring07/pom.xml" />
+        <option value="$PROJECT_DIR$/s80boot/pom.xml" />
+        <option value="$PROJECT_DIR$/boot80/pom.xml" />
+        <option value="$PROJECT_DIR$/s80bootmp/pom.xml" />
+        <option value="$PROJECT_DIR$/s80boot2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

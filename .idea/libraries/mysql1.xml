@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mysql1">
+    <CLASSES>
+      <root url="jar://C:/sunjob专用/学习资料/java/lib/JDBC/mysql/mysql.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

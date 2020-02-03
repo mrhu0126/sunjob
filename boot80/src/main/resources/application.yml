@@ -1,0 +1,21 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://127.0.0.1:3306/s82
+    driver: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:com/example/boot80/mapper/*Mapper.xml
+  type-aliases-package: com.example.boot80.pojo
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
+

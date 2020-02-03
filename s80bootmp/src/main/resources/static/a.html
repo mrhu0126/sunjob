@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/jquery.js"></script>
+    </head>
+
+    <body>
+        <table  style="border: 1px">
+            <tbody id="t">
+            <th>
+                 <td>用户名</td>
+                 <td>密码</td>
+            </th>
+            </tbody>
+        </table>
+    </body>
+
+<html>
+
+<script>
+
+    onload = function(){
+        $.getJSON("/bootmp/findall" , function (result) {
+            for(var i = 0 ;i<result.length ;i++){
+                $("#t").append("<tr><td>"+result[i].username+"</td><td>"+result[i].password+"</td></tr>")
+            }
+        });
+    }
+
+
+</script>
+
+
+
+
+
+

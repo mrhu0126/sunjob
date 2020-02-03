@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="s3-jsp-denglu:war">
+    <output-path>$PROJECT_DIR$/s3-jsp-denglu/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>s3-jsp-denglu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="s3-jsp-denglu.war">
+      <element id="artifact" artifact-name="s3-jsp-denglu:war exploded" />
+    </root>
+  </artifact>
+</component>
